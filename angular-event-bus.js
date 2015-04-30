@@ -1,5 +1,5 @@
 angular.module('angular-event-bus')
-  .service('Bus', function ($rootScope) {
+  .service('$bus', function ($rootScope) {
     return $rootScope.$new(true);
   });
 
